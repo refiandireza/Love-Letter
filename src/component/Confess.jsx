@@ -37,7 +37,7 @@ function Confess() {
         <p>Aku merasa sangat beruntung dicintai oleh kamu sayaang 🥺</p>
       </SplideSlide>
       <SplideSlide>
-        <p>Maafin aku ya sayang ☹️....</p>
+        <p>So, Maafin aku ya sayang ☹️....</p>
       </SplideSlide>
       <SplideSlide>
         <p>terkadang aku masih membuat kamu merasa sedih 🥺</p>
