@@ -55,7 +55,7 @@ function App() {
         </button>
       </div>
       <footer>
-        Created w/
+        Created with
         <FaHeart /> <span> for my Kaaa 🥰</span>
       </footer>
       <audio id="myMusic">
