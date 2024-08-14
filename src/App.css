@@ -1,0 +1,444 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Oleo+Script:wght@400;700&display=swap');
+
+*, *::before,*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  /* background-color: black; */
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0;
+}
+
+h1 {
+    font-size: 36px;
+    padding-bottom: 10px;
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2 {
+    font-size: 28px;
+    font-family: "Oleo Script", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2 i {
+    font-size: 24px;
+}
+
+/* body {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.724)), url(../img/Bg_1.JPG) no-repeat center center;
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+    overflow-x: hidden;
+    animation: change 20s infinite ease;
+} */
+
+@keyframes change {
+    0% {
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.724)), url(../img/Bg_1.JPG) no-repeat center center;;
+        background-size: cover;
+    }
+    30% {
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.724)), url(../img/Img_1.JPG) no-repeat center center;;
+        background-size: cover;
+    }
+    60% {
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.724)), url(../img/Bg_3.JPG) no-repeat center center;;
+        background-size: cover;
+    }
+    80% {
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.724)), url(../img/Bg_4.JPG) no-repeat center center;;
+        background-size: cover;
+    }
+    100% {
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.724)), url(../img/Bg_1.JPG) no-repeat center center;;
+        background-size: cover;
+    }
+
+}
+
+header {
+    text-align: center;
+    color: #fff;
+    padding: 20px 0;
+    transform: translateY(-1000px);
+    transition: ease-in 1.5s; 
+    opacity: 0;
+}
+
+body.disappear header {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+h2 {
+    margin-bottom: 0;
+}
+
+h2 span img {
+    width: 25px;
+    height: 25px;
+    color: red;
+}
+
+.carousel {
+    min-height: 200px;
+    color: #fff;
+    overflow: hidden;
+    padding: 0 15px;
+    text-align: center;
+    transform: translateX(-1000px);
+    transition: ease-in 1.5s;
+}
+
+body.disappear .carousel {
+    transform: translateY(0);
+}
+
+.carousel .splide__list {
+    gap: 15px;
+}
+
+.carousel .splide__slide:last-child {
+    padding-right: 15px;
+}
+
+.carousel .splide__slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel .splide__slide p {
+    padding: 0 15px;
+    font-size: 24px;
+    margin: auto 0;
+}
+
+.swipe {
+    font-family: "Oleo Script", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.first {
+    overflow: hidden;
+    padding: 30px 15px 0px;
+    opacity: 0;
+    transform: translateX(-1000px);
+    transition: ease-in 1.5s;
+}
+
+body.disappear .first {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.first .splide__list {
+    gap: 10px;
+}
+.first .splide__slide {
+    width: 100px!important;
+    height: 100px;
+    /* border: solid 5px blue; */
+    overflow: hidden;
+    border-radius: 10px;
+
+}
+
+.first .splide__slide img {
+    width: 100%;
+    height: 100%;
+}
+
+.gif-carousel img {
+    height: 210px;
+    width: 200px;
+}
+
+.caption {
+    font-size: 24px;
+}
+
+.gif-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.gif-container img {
+    width: 210px;
+    height: 220px;
+    animation: tilt-shaking 0.5s infinite;
+
+}
+
+.gif-container p {
+    font-size: 24px;
+    animation: tilt-shaking 0.5s infinite;
+}
+
+.gif-container i {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.gif {
+    width: 100%;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.gif-box {
+    background-color: #fff;
+    margin: 0 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.gif-box img {
+    background-color: transparent;
+    height: 160px;
+    width: 150px;
+}
+
+footer {
+    color: #fff;
+    text-align: center;
+    margin: 0 auto;
+    min-height: 40px;
+    background-color: transparent;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer span {
+    background-color: transparent;
+}
+
+footer i {
+    font-size: 12px;
+    margin: 0 5px;
+}
+
+.preload{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.preload .container {
+    background: linear-gradient(to bottom right,#0000 calc(50% - 40px),#000 50%,#0000 calc(50% + 40px)) 
+    bottom right/calc(200% + 80px) calc(200% + 80px) 
+    #fff;
+    animation: l8 1s infinite, tilt-shaking 0.5s infinite ;
+    width: 80px;
+    height: 80px;
+    font-size: 48px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #A02334;
+}
+
+
+.preload p {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    padding-top: 25px;
+    animation: tilt-shaking 0.5s infinite;
+}
+
+.preload .img-container div {
+    
+    width: 175px;
+}
+
+.preload .img-container {
+    width: 100%;
+    height: 175px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 100px;
+    /* transform: translateX(50%); */
+}
+
+.preload .img-container img {
+    width: 100%;
+    height: 100%;
+    animation: tilt-shaking 0.5s infinite;
+}
+
+/* HTML: <div class="loader"></div> */
+.loader {
+    width: 40px;
+    aspect-ratio: 1;
+    background:
+      linear-gradient(to bottom right,#0000 calc(50% - 40px),#fff 50%,#0000 calc(50% + 40px)) 
+      bottom right/calc(200% + 80px) calc(200% + 80px) 
+      orange;
+    animation: l8 1s infinite ;
+  }
+  @keyframes l8 {
+      100% {background-position: top left}
+  }
+
+  @keyframes tilt-shaking {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(2deg); }
+    50% { transform: rotate(0eg); }
+    75% { transform: rotate(-2deg); }
+    100% { transform: rotate(0deg); }
+  }
+
+  /* .disappear {
+    animation: vanish 2s forwards;
+  } */
+
+  body.disappear .preload{
+    animation: vanish 1s forwards;
+  }
+  
+
+  @keyframes vanish {
+    100%{
+        opacity: 0;
+        visibility: hidden;
+        background-color: #fff;
+    }
+  }
+
+  @keyframes fadeIn {  
+    from {  
+        opacity:0;  
+    }  
+ 
+    to {  
+        opacity:1;  
+    }  
+ }
+
+  .btn-audio {
+    font-size: 12px;
+    padding: 15px;
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 30px;
+    right: 20px;
+  }
+
+  @media screen and (min-width: 420px) and (max-width: 767px) {
+    header{
+        padding: 100px 0 50px;
+    }
+    .first {
+        padding: 80px 15px 0;
+    }
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1025px) {
+    h1 {
+        font-size: 64px;
+    }
+
+    header{
+        padding: 50px 0;
+    }
+
+    h2 {
+        font-size: 36px;
+    }
+
+    .gif-container img {
+        width: 310px;
+        height: 320px;
+    }
+
+    .carousel .splide__slide p {
+        font-size: 32px;
+    }
+
+    .first .splide__slide {
+        width: 180px !important;
+        height: 180px;
+    }
+
+    .first {
+        padding: 50px 15px 0;
+    }
+
+    .btn-audio {
+        font-size: 24px;
+        width: 40px;
+        height: 40px;
+    }
+  }
+
+  /* @media screen and (min-width: 1024px) {
+    h1 {
+        font-size: 64px;
+    }
+
+    header{
+        padding: 50px 0;
+    }
+
+    h2 {
+        font-size: 36px;
+    }
+
+    .gif-container img {
+        width: 310px;
+        height: 320px;
+    }
+
+    .carousel .splide__slide p {
+        font-size: 32px;
+    }
+
+    .first .splide__slide {
+        width: 180px !important;
+        height: 180px;
+    }
+
+    .first {
+        padding: 50px 15px 0;
+    }
+
+    .btn-audio {
+        font-size: 24px;
+        width: 40px;
+        height: 40px;
+    }
+  
+  } */

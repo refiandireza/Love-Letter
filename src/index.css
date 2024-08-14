@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Oleo+Script:wght@400;700&display=swap');
+
+*, *::before,*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  /* background-color: black; */
+}
+
+#root {
+  padding: 15px;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.724)), url(/assets/img/Bg_1.JPG) no-repeat center center;
+    background-size: cover;
+    position: relative;
+    overflow-x: hidden;
+    animation: change 20s infinite ease;
+    height: 100vh;
+}
+
+@keyframes change {
+  0% {
+      background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.724)), url(/assets/img/Bg_1.JPG) no-repeat center center;;
+      background-size: cover;
+  }
+  30% {
+      background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.724)), url(/assets/img/Img_1.JPG) no-repeat center center;;
+      background-size: cover;
+  }
+  60% {
+      background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.724)), url(/assets/img/Bg_3.JPG) no-repeat center center;;
+      background-size: cover;
+  }
+  80% {
+      background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.724)), url(/assets/img/Bg_4.JPG) no-repeat center center;;
+      background-size: cover;
+  }
+  100% {
+      background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.724)), url(/assets/img/Bg_1.JPG) no-repeat center center;;
+      background-size: cover;
+  }
+
+}
+
+body {
+  background-color: #000;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0;
+}
+
+header {
+  text-align: center;
+  color: #fff;
+  padding: 60px 0 20px;
+  transform: translateY(-1000px);
+  transition: ease-in 1.5s; 
+  opacity: 0;
+}
+
+footer {
+  color: #fff;
+  padding: 10px 0 0;
+  text-align: center;
+}
+
+footer svg {
+  margin: 0 5px;
+  width: 12px;
+  height: 12px;
+}
+
+h1 {
+    font-size: 36px;
+    padding-bottom: 10px;
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2 {
+    font-size: 28px;
+    font-family: "Oleo Script", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2 svg {
+  margin-left: 10px;
+}
+
+
+
+.img-container {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.img-container img {
+  width: 100%;
+  height: 100%;
+}
+
+.gif-container, .gif-carousel {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.gif-container img, .gif-carousel img {
+  width: 250px;
+  height: 220px;
+}
+
+.confess {
+  margin: 40px 0;
+  opacity: 0;
+    transform: translateX(-1000px);
+    transition: ease-in 1.5s;
+}
+
+.confess .splide__slide {
+  display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.splide__slide p {
+  color: #fff;
+  font-size: 24px;
+  text-align: center;
+}
+
+.swipe {
+  text-align: center;
+  font-size: 32px;
+  margin-top: 20px;
+}
+
+.btn-container {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  padding: 20px 0 10px;
+}
+
+.btn-audio {
+  font-size: 12px;
+    /* padding: 15px; */
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+}
+
+.btn-audio svg {
+  width: 15px;
+  height: 15px;
+  color: #000;
+}
+
+.preload{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #000;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.preload .container {
+  background: linear-gradient(to bottom right,#0000 calc(50% - 40px),#000 50%,#0000 calc(50% + 40px)) 
+  bottom right/calc(200% + 80px) calc(200% + 80px) 
+  #fff;
+  animation: l8 1s infinite, tilt-shaking 0.5s infinite ;
+  width: 80px;
+  height: 80px;
+  font-size: 48px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #A02334;
+}
+
+
+.preload p {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  padding-top: 25px;
+  animation: tilt-shaking 0.5s infinite;
+}
+
+.preload .img-container div {
+  
+  width: 175px;
+}
+
+.preload .img-container {
+  width: 100%;
+  height: 175px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 40px;
+  /* transform: translateX(50%); */
+}
+
+.preload .img-container img {
+  width: 100%;
+  height: 100%;
+  animation: tilt-shaking 0.5s infinite;
+}
+
+/* HTML: <div class="loader"></div> */
+.loader {
+  width: 40px;
+  aspect-ratio: 1;
+  background:
+    linear-gradient(to bottom right,#0000 calc(50% - 40px),#fff 50%,#0000 calc(50% + 40px)) 
+    bottom right/calc(200% + 80px) calc(200% + 80px) 
+    orange;
+  animation: l8 1s infinite ;
+}
+@keyframes l8 {
+    100% {background-position: top left}
+}
+
+@keyframes tilt-shaking {
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(2deg); }
+  50% { transform: rotate(0eg); }
+  75% { transform: rotate(-2deg); }
+  100% { transform: rotate(0deg); }
+}
+
+body.disappear .preload{
+  animation: vanish 1s forwards;
+}
+
+body.disappear .confess {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.carousel {
+  transform: translateX(-1000px);
+    transition: ease-in 1.5s;
+}
+
+body.disappear .carousel {
+  transform: translateY(0);
+}
+
+body.disappear header {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+@keyframes vanish {
+  100%{
+      opacity: 0;
+      visibility: hidden;
+      background-color: #fff;
+  }
+}
