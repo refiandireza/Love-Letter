@@ -22,25 +22,28 @@ function Confess() {
         </div>
       </SplideSlide>
       <SplideSlide>
-        <p>Kaaa sayaangkuuu....</p>
+        <p>Kaaa sayang...</p>
       </SplideSlide>
       <SplideSlide>
-        <p>Kamu tau ga sayang?</p>
+        <p>Kamu tau ga?</p>
       </SplideSlide>
       <SplideSlide>
         <p>
-          Aku selalu menganggap bahwa pertemuan dengan kamu adalah salah satu
+          Aku selalu percaya bahwa pertemuan dengan kamu adalah salah satu
           kado terindah yang aku dapatkan di tahun 2024 ini ✨
         </p>
       </SplideSlide>
       <SplideSlide>
-        <p>Aku merasa sangat beruntung dicintai oleh kamu sayaang 🥺</p>
+        <p>Aku merasa sangat sangat beruntung dicintai oleh kamu </p>
       </SplideSlide>
       <SplideSlide>
-        <p>So, Maafin aku ya sayang ☹️....</p>
+        <p>dan aku ga pernah mau kehilangan kamu sayang 🥺</p>
       </SplideSlide>
       <SplideSlide>
-        <p>terkadang aku masih membuat kamu merasa sedih 🥺</p>
+        <p>Jadi, Maafin aku yaa....</p>
+      </SplideSlide>
+      <SplideSlide>
+        <p>Kalau terkadang aku masih membuat kamu merasa sedih 🥺</p>
       </SplideSlide>
       <SplideSlide>
         <p>Merasa kesal🥺...</p>
@@ -57,17 +60,17 @@ function Confess() {
       <SplideSlide>
         <p>
           Aku selalu berusaha untuk selalu membuat kamu bahagia dalam menjalani
-          hubungan ini sayaang 🥺{" "}
+          hubungan ini 🥺{" "}
         </p>
       </SplideSlide>
       <SplideSlide>
-        <p>dan aku yakin kamu juga merasakan hal ituu... </p>
+        <p>dan aku yakin kamu juga tau bahwa aku begitu </p>
       </SplideSlide>
       <SplideSlide>
         <p>Karena aku... </p>
       </SplideSlide>
       <SplideSlide>
-        <p>aku jatuh cinta sejatuh-jatuhnya sama kamu sayaang 💖💖 </p>
+        <p>Aku telah jatuh cinta sejatuh-jatuhnya sama kamu 💖💖 </p>
       </SplideSlide>
       <SplideSlide>
         <p>
@@ -76,16 +79,28 @@ function Confess() {
         </p>
       </SplideSlide>
       <SplideSlide>
-        <p>I promise you... </p>
+        <p>Because of you... </p>
       </SplideSlide>
       <SplideSlide>
-        <p>I will love you and support you in every possible way i could 🥰 </p>
+        <p>everything is the best and beautiful✨🌻 </p>
       </SplideSlide>
       <SplideSlide>
-        <p>Because.... </p>
+        <p>It's an honor to have you in my life 🌹 </p>
       </SplideSlide>
       <SplideSlide>
-        <p>You are my dearest friend 🥰 </p>
+        <p>I promise to always adore you 🌕 </p>
+      </SplideSlide>
+      <SplideSlide>
+        <p>Respect you 😇 </p>
+      </SplideSlide>
+      <SplideSlide>
+        <p>Love you and support you in every possible way i could 🥰 </p>
+      </SplideSlide>
+      <SplideSlide>
+        <p>Since you've already become... </p>
+      </SplideSlide>
+      <SplideSlide>
+        <p>my dearest friend 🥰 </p>
       </SplideSlide>
       <SplideSlide>
         <p>My deepest love 💖 </p>
@@ -94,7 +109,13 @@ function Confess() {
         <p>and the best part of me ✨🌕💫 </p>
       </SplideSlide>
       <SplideSlide>
-        <p>I love you in every universe sayaang 💐✨💖🌕🌸🪐✨❤️‍🔥💖🖤🌗🌸 </p>
+        <p>I love you sayaang 💖 </p>
+      </SplideSlide>
+      <SplideSlide>
+        <p>
+          I love you in every universe
+          💐✨💖🌕🌸🪐✨❤️‍🔥💖🖤🌗🌸
+        </p>
       </SplideSlide>
       <SplideSlide>
         <div className="gif-carousel">
