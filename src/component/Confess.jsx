@@ -40,7 +40,7 @@ function Confess() {
         <p>dan aku ga pernah mau kehilangan kamu sayang 🥺</p>
       </SplideSlide>
       <SplideSlide>
-        <p>Jadi, Maafin aku yaa....</p>
+        <p>Jadi, maafin aku yaa....</p>
       </SplideSlide>
       <SplideSlide>
         <p>Kalau terkadang aku masih membuat kamu merasa sedih 🥺</p>
@@ -97,16 +97,16 @@ function Confess() {
         <p>Love you and support you in every possible way i could 🥰 </p>
       </SplideSlide>
       <SplideSlide>
-        <p>Since you've already become... </p>
+        <p>Coz you've already become... </p>
       </SplideSlide>
       <SplideSlide>
         <p>my dearest friend 🥰 </p>
       </SplideSlide>
       <SplideSlide>
-        <p>My deepest love 💖 </p>
+        <p>my deepest love 💖 </p>
       </SplideSlide>
       <SplideSlide>
-        <p>and the best part of me ✨🌕💫 </p>
+        <p>and the very best of me ✨🌕💫 </p>
       </SplideSlide>
       <SplideSlide>
         <p>I love you sayaang 💖 </p>
@@ -120,7 +120,7 @@ function Confess() {
       <SplideSlide>
         <div className="gif-carousel">
           <img src="/assets/img/test_gif2.gif" />
-          <p className="caption">Hadiah buat kamu</p>
+          <p className="caption">Ini hadiah buat kamu</p>
         </div>
       </SplideSlide>
     </Splide>
