@@ -18,7 +18,7 @@
     background-size: cover;
     position: relative;
     overflow-x: hidden;
-    animation: change 35s infinite ease;
+    animation: change 45s infinite ease;
     height: 100vh;
 }
 
